@@ -53,7 +53,8 @@ private:
                           << ") wins!\n\n";
                 return true;
             }
-            if (board_.isFull()) {
+            if (board_.isFull()) 
+            {
                 board_.display();
                 std::cout << "It's a draw!\n\n";
                 return true;
